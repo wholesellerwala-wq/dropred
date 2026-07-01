@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PowerFit Gym CRM - India's leading gym management software with WhatsApp automation for fee collection and member management">
+  <meta name="keywords" content="gym management software, WhatsApp gym automation, gym CRM India, fee collection gym">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PowerFit Gym CRM">
+  <meta property="og:description" content="Automate your gym fee collection and member management via WhatsApp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mygymwebsite-xi.vercel.app">
+  <meta property="og:image" content="/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="facebook-domain-verification" content="PLACEHOLDER_CODE">
+  
+  <title>PowerFit Gym CRM - India's #1 Gym Management Platform</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen">
+    <div class="loader-logo">POWERFIT CRM</div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar"></div>
+    </div>
+    <div class="loader-text">Loading Assets...</div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">PowerFit<span>CRM</span></a>
+    
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    
+    <a href="#pricing" class="btn-primary btn-nav">Get Started</a>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="index.html#features">Features</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="#pricing" class="btn-primary btn-nav">Get Started</a>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="page-hero" style="min-height: 100vh; display: flex; align-items: center; justify-content: center; padding-top: 80px;" id="particles-js">
+    <!-- Particles will render inside this section -->
+    <div style="position: absolute; z-index: 10; width: 100%; display: flex; flex-direction: column; align-items: center;">
+      <h1 class="page-hero-title">
+        <span id="typing-text"></span><span class="cursor" style="color: var(--gold);">|</span>
+      </h1>
+      <p class="section-subtitle" data-aos="fade-up" data-aos-delay="500">Automate fees, WhatsApp reminders & member management for your gym.</p>
+      
+      <div style="display: flex; gap: 20px; margin-top: 10px;" data-aos="fade-up" data-aos-delay="800">
+        <a href="#pricing" class="btn-primary">Start Free Trial</a>
+        <a href="#features" class="btn-outline"><i class="fas fa-play-circle"></i> Watch Demo</a>
+      </div>
+
+      <div style="display: flex; gap: 30px; margin-top: 80px; flex-wrap: wrap; justify-content: center;" data-aos="zoom-in" data-aos-delay="1000">
+        <div class="glass-card" style="padding: 20px 40px; animation: float 6s ease-in-out infinite;">
+          <h2 style="color: var(--gold); font-family: var(--fh); font-size: 2rem;">500+</h2>
+          <p style="color: var(--w-mid); font-size: 0.9rem; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Gyms</p>
+        </div>
+        <div class="glass-card" style="padding: 20px 40px; animation: float 6s ease-in-out infinite 1s;">
+          <h2 style="color: var(--gold); font-family: var(--fh); font-size: 2rem;">50,000+</h2>
+          <p style="color: var(--w-mid); font-size: 0.9rem; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Members</p>
+        </div>
+        <div class="glass-card" style="padding: 20px 40px; animation: float 6s ease-in-out infinite 2s;">
+          <h2 style="color: var(--gold); font-family: var(--fh); font-size: 2rem;">₹2Cr+</h2>
+          <p style="color: var(--w-mid); font-size: 0.9rem; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">Collected</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section id="features">
+    <div class="section-tag" data-aos="fade-up">Features</div>
+    <h2 class="section-title" data-aos="fade-up">Everything Your Gym Needs</h2>
+    <div class="gold-line" data-aos="fade-up"></div>
+    <p class="section-subtitle" data-aos="fade-up">A powerful all-in-one suite designed specifically for Indian gym owners.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-icon" style="margin-bottom: 20px;"><i class="fab fa-whatsapp"></i></div>
+        <h4>WhatsApp Auto Reminders</h4>
+        <p style="color: var(--w-mid); font-size: 0.9rem; margin-top: 10px;">Send automatic fee reminders via WhatsApp to ensure timely payments.</p>
+      </div>
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="info-icon" style="margin-bottom: 20px;"><i class="fas fa-rupee-sign"></i></div>
+        <h4>Fee Collection Tracking</h4>
+        <p style="color: var(--w-mid); font-size: 0.9rem; margin-top: 10px;">Track pending and received payments easily with a single dashboard.</p>
+      </div>
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="info-icon" style="margin-bottom: 20px;"><i class="fas fa-users"></i></div>
+        <h4>Member Management</h4>
+        <p style="color: var(--w-mid); font-size: 0.9rem; margin-top: 10px;">Add, edit, delete members in seconds and keep all data organized.</p>
+      </div>
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="info-icon" style="margin-bottom: 20px;"><i class="fas fa-apple-alt"></i></div>
+        <h4>AI Diet Planner</h4>
+        <p style="color: var(--w-mid); font-size: 0.9rem; margin-top: 10px;">Generate custom diet plans for members tailored to their goals.</p>
+      </div>
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="500">
+        <div class="info-icon" style="margin-bottom: 20px;"><i class="fas fa-qrcode"></i></div>
+        <h4>Attendance Tracking</h4>
+        <p style="color: var(--w-mid); font-size: 0.9rem; margin-top: 10px;">QR code based daily attendance system for seamless entry tracking.</p>
+      </div>
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="600">
+        <div class="info-icon" style="margin-bottom: 20px;"><i class="fas fa-birthday-cake"></i></div>
+        <h4>Birthday Automation</h4>
+        <p style="color: var(--w-mid); font-size: 0.9rem; margin-top: 10px;">Auto birthday wishes with special offers sent automatically via WhatsApp.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS SECTION -->
+  <section id="how-it-works" style="background: rgba(255,215,0,0.02); position: relative;">
+    <div class="section-tag" data-aos="fade-up">Workflow</div>
+    <h2 class="section-title" data-aos="fade-up">How It Works</h2>
+    <div class="gold-line" data-aos="fade-up"></div>
+    <p class="section-subtitle" data-aos="fade-up">Streamlined operation from day one.</p>
+
+    <div style="max-width: 1000px; margin: 0 auto; position: relative;">
+      <div style="position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: rgba(255,215,0,0.2); transform: translateX(-50%); z-index: 1;"></div>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 60px; position: relative; z-index: 2;" data-aos="fade-right">
+        <div class="glass-card" style="width: 45%;">
+          <h4 style="color: var(--gold); margin-bottom: 10px;">Step 1</h4>
+          <p>Owner logs in to the intuitive dashboard to monitor operations.</p>
+        </div>
+        <div style="width: 40px; height: 40px; background: var(--black); border: 2px solid var(--gold); border-radius: 50%; box-shadow: 0 0 15px rgba(255,215,0,0.5); position: absolute; left: 50%; transform: translateX(-50%);"></div>
+        <div style="width: 45%;"></div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 60px; position: relative; z-index: 2;" data-aos="fade-left">
+        <div style="width: 45%;"></div>
+        <div style="width: 40px; height: 40px; background: var(--black); border: 2px solid var(--gold); border-radius: 50%; box-shadow: 0 0 15px rgba(255,215,0,0.5); position: absolute; left: 50%; transform: translateX(-50%);"></div>
+        <div class="glass-card" style="width: 45%;">
+          <h4 style="color: var(--gold); margin-bottom: 10px;">Step 2</h4>
+          <p>Add gym members quickly using just their phone numbers.</p>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 60px; position: relative; z-index: 2;" data-aos="fade-right">
+        <div class="glass-card" style="width: 45%;">
+          <h4 style="color: var(--gold); margin-bottom: 10px;">Step 3</h4>
+          <p>The system auto-sends personalized WhatsApp reminders for dues.</p>
+        </div>
+        <div style="width: 40px; height: 40px; background: var(--black); border: 2px solid var(--gold); border-radius: 50%; box-shadow: 0 0 15px rgba(255,215,0,0.5); position: absolute; left: 50%; transform: translateX(-50%);"></div>
+        <div style="width: 45%;"></div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 2;" data-aos="fade-left">
+        <div style="width: 45%;"></div>
+        <div style="width: 40px; height: 40px; background: var(--black); border: 2px solid var(--gold); border-radius: 50%; box-shadow: 0 0 15px rgba(255,215,0,0.5); position: absolute; left: 50%; transform: translateX(-50%);"></div>
+        <div class="glass-card" style="width: 45%;">
+          <h4 style="color: var(--gold); margin-bottom: 10px;">Step 4</h4>
+          <p>Effortlessly collect fees and track your overall revenue growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING SECTION -->
+  <section id="pricing">
+    <div class="section-tag" data-aos="fade-up">Pricing</div>
+    <h2 class="section-title" data-aos="fade-up">Choose Your Plan</h2>
+    <div class="gold-line" data-aos="fade-up"></div>
+    <p class="section-subtitle" data-aos="fade-up">Affordable pricing for gyms of all sizes.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1100px; margin: 0 auto; align-items: center;">
+      <!-- Basic -->
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+        <h3 style="font-family: var(--fh); font-size: 1.5rem; color: #fff;">BASIC</h3>
+        <h2 style="font-size: 2.5rem; color: var(--gold); margin: 15px 0;">₹4,999<span style="font-size: 1rem; color: var(--w-mid);">/month</span></h2>
+        <ul style="margin: 30px 0; color: rgba(255,255,255,0.8); line-height: 2.2;">
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> 50 Members</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> WhatsApp Reminders</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Fee Tracking</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Email Support</li>
+        </ul>
+        <a href="#contact" class="btn-outline" style="width: 100%; justify-content: center;">Choose Basic</a>
+      </div>
+
+      <!-- Pro -->
+      <div class="glass-card" style="border-color: var(--gold); box-shadow: 0 0 30px rgba(255,215,0,0.15); transform: scale(1.05);" data-aos="fade-up" data-aos-delay="200">
+        <div style="position: absolute; top: 15px; right: 15px; background: var(--gold); color: #000; font-size: 0.7rem; font-weight: bold; padding: 4px 10px; border-radius: 20px; text-transform: uppercase;">Most Popular</div>
+        <h3 style="font-family: var(--fh); font-size: 1.5rem; color: #fff;">PRO</h3>
+        <h2 style="font-size: 2.5rem; color: var(--gold); margin: 15px 0;">₹9,999<span style="font-size: 1rem; color: var(--w-mid);">/month</span></h2>
+        <ul style="margin: 30px 0; color: rgba(255,255,255,0.8); line-height: 2.2;">
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> 200 Members</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> All Basic Features</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> AI Diet Planner</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Attendance Tracking</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Birthday Automation</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Priority Support</li>
+        </ul>
+        <a href="#contact" class="btn-primary" style="width: 100%; justify-content: center;">Choose Pro</a>
+      </div>
+
+      <!-- Enterprise -->
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="300">
+        <h3 style="font-family: var(--fh); font-size: 1.5rem; color: #fff;">ENTERPRISE</h3>
+        <h2 style="font-size: 2.5rem; color: var(--gold); margin: 15px 0;">₹14,999<span style="font-size: 1rem; color: var(--w-mid);">/month</span></h2>
+        <ul style="margin: 30px 0; color: rgba(255,255,255,0.8); line-height: 2.2;">
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Unlimited Members</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> All Pro Features</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Multi Branch Support</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Custom Branding</li>
+          <li><i class="fas fa-check" style="color: var(--gold); margin-right: 10px;"></i> Dedicated Account Manager</li>
+        </ul>
+        <a href="#contact" class="btn-outline" style="width: 100%; justify-content: center;">Choose Enterprise</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" style="background: rgba(255,215,0,0.02);">
+    <div class="section-tag" data-aos="fade-up">Testimonials</div>
+    <h2 class="section-title" data-aos="fade-up">Trusted by Gym Owners</h2>
+    <div class="gold-line" data-aos="fade-up"></div>
+    <p class="section-subtitle" data-aos="fade-up">See what our partners have to say.</p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+        <div style="color: var(--gold); font-size: 1.5rem; margin-bottom: 15px;"><i class="fas fa-quote-left"></i></div>
+        <p style="font-style: italic; color: var(--w-mid); margin-bottom: 20px;">"PowerFit CRM has completely automated our fee collection. The WhatsApp reminders work like magic. Recovery rate increased by 40%!"</p>
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <div style="width: 50px; height: 50px; background: #333; border-radius: 50%; overflow: hidden;"><img src="https://ui-avatars.com/api/?name=Rajesh+Kumar&background=FFD700&color=000" alt="Rajesh Kumar"></div>
+          <div>
+            <h4 style="color: #fff; font-size: 0.95rem;">Rajesh Kumar</h4>
+            <p style="color: var(--gold); font-size: 0.8rem;">FitZone Gym, Delhi</p>
+          </div>
+        </div>
+      </div>
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="200">
+        <div style="color: var(--gold); font-size: 1.5rem; margin-bottom: 15px;"><i class="fas fa-quote-left"></i></div>
+        <p style="font-style: italic; color: var(--w-mid); margin-bottom: 20px;">"Managing multiple branches was a nightmare before PowerFit. Now I track everything from a single dashboard. Absolutely premium software."</p>
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <div style="width: 50px; height: 50px; background: #333; border-radius: 50%; overflow: hidden;"><img src="https://ui-avatars.com/api/?name=Priya+Sharma&background=FFD700&color=000" alt="Priya Sharma"></div>
+          <div>
+            <h4 style="color: #fff; font-size: 0.95rem;">Priya Sharma</h4>
+            <p style="color: var(--gold); font-size: 0.8rem;">PowerHouse Gym, Mumbai</p>
+          </div>
+        </div>
+      </div>
+      <div class="glass-card" data-aos="fade-up" data-aos-delay="300">
+        <div style="color: var(--gold); font-size: 1.5rem; margin-bottom: 15px;"><i class="fas fa-quote-left"></i></div>
+        <p style="font-style: italic; color: var(--w-mid); margin-bottom: 20px;">"The birthday automation feature makes our members feel special. It's an essential tool for any modern gym owner in India."</p>
+        <div style="display: flex; align-items: center; gap: 15px;">
+          <div style="width: 50px; height: 50px; background: #333; border-radius: 50%; overflow: hidden;"><img src="https://ui-avatars.com/api/?name=Amit+Patel&background=FFD700&color=000" alt="Amit Patel"></div>
+          <div>
+            <h4 style="color: #fff; font-size: 0.95rem;">Amit Patel</h4>
+            <p style="color: var(--gold); font-size: 0.8rem;">Iron Temple Gym, Ahmedabad</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section style="padding: 120px 5%; background: linear-gradient(135deg, rgba(255,215,0,0.1), transparent), #050505; text-align: center; border-top: 1px solid rgba(255,215,0,0.2);">
+    <h2 style="font-family: var(--fh); font-size: clamp(2rem, 4vw, 3.5rem); color: #fff; font-weight: 900; margin-bottom: 20px;" data-aos="fade-up">Ready to Automate Your Gym?</h2>
+    <p style="color: var(--w-mid); max-width: 600px; margin: 0 auto 40px;" data-aos="fade-up" data-aos-delay="100">Join 500+ gym owners who have transformed their businesses with PowerFit CRM.</p>
+    <a href="#contact" class="btn-primary" style="padding: 20px 40px; font-size: 1.1rem;" data-aos="zoom-in" data-aos-delay="200">Start Free Trial Today</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" style="margin-bottom: 15px; display: inline-block;">PowerFit<span>CRM</span></a>
+        <p>Automate your gym fee collection and member management effortlessly.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html#pricing">Pricing</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="refund.html">Refund Policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://wa.me/919999999999" target="_blank" style="display: flex; align-items: center; gap: 8px;"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+        <a href="mailto:support@powerfit.in" style="display: flex; align-items: center; gap: 8px;"><i class="fas fa-envelope"></i> Email Support</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 PowerFit CRM. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
