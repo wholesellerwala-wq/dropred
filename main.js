@@ -182,6 +182,6 @@ if (contactForm) {
     const waText = `Hello Droptrens Team!%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Phone:* ${phone}%0A*Message:* ${message}%0A%0AI'm interested in your services.`;
     
     // Open WhatsApp
-    window.open(`https://wa.me/919999999999?text=${waText}`, '_blank');
+    window.open(`https://wa.me/918920310968?text=${waText}`, '_blank');
   });
 }
